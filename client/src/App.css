@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+h2 {
+  overflow: hidden;
+}
+button {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*
+  Navbar
+*/
+.navbar {
+  overflow: auto;
+  z-index: 20;
+  width: 100vw;
+
+  position: fixed;
+  top: 5;
+  left: 0;
+
+  padding: 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.shoppingCartIcon {
+  justify-self: flex-end;
+  cursor: pointer;
+}
+.openNavBar {
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  padding: 1rem 1.5rem;
+  overflow: hidden;
+  @media screen and (min-width: 500px){
+    width: 250px;
+    height:220px;
+  }
+
+}
+.navElements {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  text-transform: uppercase;
+  font-size: 1.5vw;
+  font-weight: bold;
+  cursor: pointer;
+}
+.navElements > :nth-child(1) {
+  margin-top: 2rem;
+}
+.navElements > li:hover {
+  color: rgb(255, 237, 181);
+}
+.hiMenu{
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+.navBtn{
+  white-space: nowrap;
+}
+h2 {
+  @media screen and (min-width: 500px) {
+    font-size: 24px;
+  }
+}
+.navBtn :hover, .fnfBtn:hover {
+  color: rgb(253, 253, 151);
+}

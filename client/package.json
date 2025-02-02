@@ -1,0 +1,61 @@
+{
+  "name": "jwt-pg",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.9.6",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.13.4",
+    "@paralleldrive/cuid2": "^2.2.1",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@stripe/react-stripe-js": "^2.1.0",
+    "@stripe/stripe-js": "^1.53.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "aos": "^2.3.4",
+    "axios": "^1.4.0",
+    "contentful": "^10.6.22",
+    "dotenv": "^16.0.3",
+    "env-cmd": "^10.1.0",
+    "graphql": "^16.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-player": "^2.13.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.10.0",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.7.3",
+    "react-slick": "^0.29.0",
+    "react-toastify": "^5.5.0",
+    "redux-persist": "^6.0.0",
+    "rodal": "^2.0.1",
+    "slick-carousel": "^1.8.1",
+    "usehooks-ts": "^2.9.1"
+  },
+  "scripts": {
+    "start": "env-cmd -f .dev.env react-scripts start",
+    "dev": "env-cmd -f .dev.env react-scripts start",
+    "prod": "env-cmd -f .prod.env react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

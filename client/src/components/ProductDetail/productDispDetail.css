@@ -1,0 +1,141 @@
+
+.video-container video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+
+  z-index: -10;
+}
+
+.title h2 {
+  font-size: 2vw;
+  color: white;
+  text-decoration: underline solid 4px;
+  text-underline-offset: 0.65rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.body-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: 3rem auto;
+  height: auto;
+  padding: 1.5rem 0.5rem;
+}
+
+.product-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  width: 50%;
+}
+.product-description {
+  width: 100%;
+}
+.imageDTF {
+  width: 100%;
+}
+
+.product-form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem 1rem;
+}
+.verticalBar{
+  height: 350px;
+  width: 5px;
+  background-color: #040300;
+  border-radius: 99px;
+  margin: 0 20px;
+}
+
+h4 {
+  font-size: 16px;
+}
+.button-cart-add {
+  border: 1.5px solid rgba(128, 128, 128, 0.318);
+  border-radius: 4px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.button-cart-size {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  border: 1.5px solid rgba(128, 128, 128, 0.318);
+  border-radius: 6px;
+  padding-left: 3.1rem;
+  padding-right: 3.1rem;
+  color: white;
+  background-color: green;
+}
+
+.sizechart {
+  padding-top: 3rem;
+  width: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+  .body-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 30px; */
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 3rem auto;
+    padding: 0.5rem 1rem;
+  }
+  .product-form {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 1rem;
+  }
+  .product-form {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 1rem;
+  }
+  .product-view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    width: 90%;
+  }
+  .product-description {
+    width: 100%;
+    /* border: 1px solid green; */
+    margin-top: 1.8rem;
+  }
+
+  .imageDTF {
+    width: 100%;
+    /* border: 2px solid red; */
+  }
+  .verticalBar{
+    display: none;
+  }
+}
