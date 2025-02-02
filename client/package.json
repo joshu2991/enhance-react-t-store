@@ -39,7 +39,7 @@
     "start": "env-cmd -f .dev.env react-scripts start",
     "dev": "env-cmd -f .dev.env react-scripts start",
     "prod": "env-cmd -f .prod.env react-scripts start",
-    "build": "react-scripts build",
+    "build": "env-cmd -f .prod.env react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
